@@ -1,0 +1,19 @@
+Font-Size 
+------------
+h1 {
+  font-size:562.5%; or 5.62em ;
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+}
+
+ to keep font size dynamically which is % way so 100% = 16px= 1em , 90px=?  (90px= 562.5%= 5.62em  em is also another way making dynamic and its another notation way).
+  1.if we are planning to make everything dynamic in webiste and if we are using % or em then the parents elements given size is added with the child element example
+  EX:body{ font-size:2 em} h1{font-size:5 em };  then the h1 will be displayed very big and it becomes 7 em 
+  2.In order to solve this problem their is solution in css3 which writing rem in h1 which will fix the dynamic size of h1 as 5rem not 7.
+
+h1 {
+  font-size:5.625rem ;
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+}
+
